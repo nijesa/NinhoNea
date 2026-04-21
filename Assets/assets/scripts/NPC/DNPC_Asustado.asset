@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
-  m_Name: DNPC_Cumple
+  m_Name: DNPC_Asustado
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
-  npcName: "Cumplea\xF1ero"
-  npcSprite: {fileID: 712535272477043524, guid: dfacb967cbc8a33478987d7d5651e541, type: 3}
+  npcName: Malo
+  npcSprite: {fileID: 6133444602982949806, guid: fff0fe8ed534fa44a8cbffdca5dbf66e, type: 3}
   dialogueLines:
-  - Feliz
-  typingSpeed: 0.5
+  - Asustado
+  typingSpeed: 0.05
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 2

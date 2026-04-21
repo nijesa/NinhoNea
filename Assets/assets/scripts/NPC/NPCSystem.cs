@@ -1,8 +1,11 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NPCSystem : MonoBehaviour
 {
+    public UnityEvent onEnter;
+     public UnityEvent onExit;
     bool playerInRange = false;
     [SerializeField] GameObject cosaPaVer;
     [SerializeField] GameObject Dialogue;
@@ -32,6 +35,10 @@ public class NPCSystem : MonoBehaviour
         {
             playerInRange = true;
             Debug.Log("Player in range");
+            if (onEnter != null)
+            {
+                onEnter.Invoke();
+            }
         }
     }
 
@@ -41,6 +48,10 @@ public class NPCSystem : MonoBehaviour
         {
             playerInRange = false;
             Debug.Log("Player left range");
+            if (onExit != null)
+            {
+                onExit.Invoke();
+            }
         }
     }
 }
