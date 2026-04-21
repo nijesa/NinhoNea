@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Cosito
+  - CositoMal
+  - Moving
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 1459316279
+    locked: 0
+  - name: Player
+    uniqueID: 950442411
+    locked: 0
+  - name: BarraFondo
+    uniqueID: 664490929
+    locked: 0
+  - name: BarraMove
+    uniqueID: 1060795507
+    locked: 0
+  m_RenderingLayers:
+  - Default
