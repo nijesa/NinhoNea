@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] SceneManager sceneManager;
+    
     void Update()
     {
         if (Input.anyKeyDown)
@@ -18,6 +18,6 @@ public class MainMenuManager : MonoBehaviour
     {
         Debug.Log("Key pressed!");
         
-        sceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 }

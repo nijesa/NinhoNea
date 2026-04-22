@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
-using JetBrains.Annotations;
+
 
 public class NPC : MonoBehaviour
 {
