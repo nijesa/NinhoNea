@@ -9,6 +9,10 @@ public class NPCSystem : MonoBehaviour
     bool playerInRange = false;
     [SerializeField] GameObject cosaPaVer;
     [SerializeField] GameObject Dialogue;
+    [SerializeField] GameObject[] OtherOptions;
+    [SerializeField] GameObject InvisiWall;
+
+    
 
     // Update is called once per frame
     void Update()
@@ -20,7 +24,17 @@ public class NPCSystem : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Dialogue.SetActive(true);
-                
+                if (OtherOptions != null)
+                {
+                    foreach (GameObject option in OtherOptions)
+                    {
+                        option.SetActive(false);
+                    }
+                }
+                if (InvisiWall != null)
+                {
+                    InvisiWall.SetActive(false);
+                }
             }
         }
         else

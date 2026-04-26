@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
+  m_Name: SeguirBuscando
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
+  npcName: Seguir buscando un adulto que me escuche
+  npcSprite: {fileID: 0}
+  dialogueLines:
+  - "\xA1Exacto! Mereces que te escuchen."
+  typingSpeed: 0.5
+  autoProgress: 01
+  autoProgressDelay: 1

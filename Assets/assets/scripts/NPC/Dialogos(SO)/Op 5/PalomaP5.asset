@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
+  m_Name: PalomaP5
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
+  npcName: Paloma
+  npcSprite: {fileID: 0}
+  dialogueLines:
+  - Si alguien te cuenta un secreto bueno, puedes guardarlo por un tiempo porque
+    te hace sentir feliz y no te causa miedo, pero igual puedes compartirlo con un
+    adulto de confianza si lo necesitas.
+  - "En cambio, si alguien te cuenta un secreto malo y eso te hace sentir inc\xF3modo,
+    triste o asustado, es muy importante que no lo guardes: debes contarlo a un adulto
+    que te cuide, como tu mam\xE1, tu profesor o alguien de confianza."
+  - "Y si la primera persona no te escucha o no te ayuda, puedes cont\xE1rselo a
+    otra persona hasta que alguien te escuche y te haga sentir protegido."
+  - "Tu mam\xE1 te dice: \u201Cayudame a esconder este regalo para tu hermano, pero
+    no le digas, es una sorpresa de cumplea\xF1os\u201D"
+  - "\xBFQue harias?"
+  typingSpeed: 0.54
+  autoProgress: 0101010101
+  autoProgressDelay: 1
