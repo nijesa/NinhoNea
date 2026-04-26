@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    
     void Update()
     {
         if (Input.anyKeyDown)
@@ -14,10 +13,15 @@ public class MainMenuManager : MonoBehaviour
         }
     }
 
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     void OnAnyKeyPressed()
     {
         Debug.Log("Key pressed!");
         
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
