@@ -8,6 +8,7 @@ public class NPCSystem : MonoBehaviour
      public UnityEvent onExit;
     bool playerInRange = false;
     [SerializeField] GameObject cosaPaVer;
+    [SerializeField] GameObject cosaPaVer2;
     [SerializeField] GameObject Dialogue;
     [SerializeField] GameObject[] OtherOptions;
     [SerializeField] GameObject InvisiWall;
