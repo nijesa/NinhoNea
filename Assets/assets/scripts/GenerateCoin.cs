@@ -30,7 +30,7 @@ public class GenerateCoin : MonoBehaviour
             elapsedTime += spawnInterval;
         }
         InvisiWall.SetActive(false);
-        yield return new WaitForSeconds(9f);
+        yield return new WaitForSeconds(25f);
         SceneManager.LoadScene(2);
     }
 

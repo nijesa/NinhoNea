@@ -12,9 +12,8 @@ public class CoinColllisionManager : MonoBehaviour
             Console.Write("Coin collected!");
             Destroy(gameObject);
         }
-        else if (collision.gameObject.CompareTag("Cosito"))
+        else if (collision.gameObject.CompareTag("Cosito")|| collision.gameObject.CompareTag("CositoMal"))
         {
-            Console.Write("Cosito hit!");
             return;
 
         }
