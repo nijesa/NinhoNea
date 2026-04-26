@@ -6,6 +6,7 @@ public class NPCSystem : MonoBehaviour
 {
     public UnityEvent onEnter;
      public UnityEvent onExit;
+     public UnityEvent onInteract;
     bool playerInRange = false;
     [SerializeField] GameObject cosaPaVer;
     [SerializeField] GameObject cosaPaVer2;
@@ -13,14 +14,21 @@ public class NPCSystem : MonoBehaviour
     [SerializeField] GameObject[] OtherOptions;
     [SerializeField] GameObject InvisiWall;
 
-    
 
+    void Start()
+    {
+        if (cosaPaVer2 != null)
+        {
+            cosaPaVer2.SetActive(false);
+        }
+    }
     // Update is called once per frame
     void Update()
     {
         if (playerInRange)
         {
             cosaPaVer.SetActive(true);
+            cosaPaVer2.SetActive(true);
            // Debug.Log("Interacting with NPC");
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -35,6 +43,10 @@ public class NPCSystem : MonoBehaviour
                 if (InvisiWall != null)
                 {
                     InvisiWall.SetActive(false);
+                }
+                if (onInteract != null)
+                {
+                    onInteract.Invoke();
                 }
             }
         }

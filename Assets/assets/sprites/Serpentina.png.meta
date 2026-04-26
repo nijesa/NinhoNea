@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: a1f0c4f99eefdc84198cc50212537392
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7719035670384878204
+    second: Serpentina_0
+  - first:
+      213: 4595962577888645144
+    second: Serpentina_1
+  - first:
+      213: 8066861354846757726
+    second: Serpentina_2
+  - first:
+      213: 8959222442245146600
+    second: Serpentina_3
+  - first:
+      213: 1523877071305562203
+    second: Serpentina_4
+  - first:
+      213: -6846722036710630564
+    second: Serpentina_5
+  - first:
+      213: 5511439449246155768
+    second: Serpentina_6
+  - first:
+      213: 4131016787629448657
+    second: Serpentina_7
+  - first:
+      213: 6218927450656828253
+    second: Serpentina_8
+  - first:
+      213: -8921304459688733655
+    second: Serpentina_9
+  - first:
+      213: -8134446092470449696
+    second: Serpentina_10
+  - first:
+      213: -7695320259696884226
+    second: Serpentina_11
+  - first:
+      213: 8037734919373098567
+    second: Serpentina_12
+  - first:
+      213: -4465164268964822570
+    second: Serpentina_13
+  - first:
+      213: -911896195553411077
+    second: Serpentina_14
+  - first:
+      213: 4209646722278137275
+    second: Serpentina_15
+  - first:
+      213: 6148044052707318516
+    second: Serpentina_16
+  - first:
+      213: 2124090924475388516
+    second: Serpentina_17
+  - first:
+      213: -5841937722719096661
+    second: Serpentina_18
+  - first:
+      213: -3786984641991937967
+    second: Serpentina_19
+  - first:
+      213: 2674317637349776609
+    second: Serpentina_20
+  - first:
+      213: -5076036965114069969
+    second: Serpentina_21
+  - first:
+      213: 3864823783157240035
+    second: Serpentina_22
+  - first:
+      213: -7196869064536076293
+    second: Serpentina_23
+  - first:
+      213: -115388574979221058
+    second: Serpentina_24
+  - first:
+      213: 7057394338095800678
+    second: Serpentina_25
+  - first:
+      213: -8673050289670077866
+    second: Serpentina_26
+  - first:
+      213: 697833361282206117
+    second: Serpentina_27
+  - first:
+      213: -6211517563165064408
+    second: Serpentina_28
+  - first:
+      213: -8863631492359383603
+    second: Serpentina_29
+  - first:
+      213: -9220507638536805544
+    second: Serpentina_30
+  - first:
+      213: 5223187433338444666
+    second: Serpentina_31
+  - first:
+      213: -4654439983123681005
+    second: Serpentina_32
+  - first:
+      213: -7171383270204246946
+    second: Serpentina_33
+  - first:
+      213: -2539368938815519359
+    second: Serpentina_34
+  - first:
+      213: -1061369305214342535
+    second: Serpentina_35
+  - first:
+      213: -3097954266624836029
+    second: Serpentina_36
+  - first:
+      213: -5818911988443529500
+    second: Serpentina_37
+  - first:
+      213: 7774210835801750045
+    second: Serpentina_38
+  - first:
+      213: 1205818720391023578
+    second: Serpentina_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Serpentina_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2500
+        height: 2500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c722cd58b068f1b60800000000000000
+      internalID: 7719035670384878204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Serpentina_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 2297
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e837c1eddcaca14ba946db8b7de6a57
+      internalID: 4595962577888645144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ed44b26da11747d4f802503521e84f42
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":2500.0,"y":2500.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Serpentina_0: 7719035670384878204
+      Serpentina_1: 4595962577888645144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
