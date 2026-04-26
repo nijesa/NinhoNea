@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
   m_Name: Narrador
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
-  npcName: Narrador
+  npcName: Paloma
   npcSprite: {fileID: 0}
   dialogueLines:
   - Los secretos buenos, como una sorpresa, te hace sentir feliz y emocionado
@@ -23,6 +23,6 @@ MonoBehaviour:
   - "Supongamos que tu madre te dice \"No le digas a tu hermano, es una fiesta sorpresa
     de cumplea\xF1os\""
   - "\xBFComo te hace sentir este secreto?"
-  typingSpeed: 0.05
+  typingSpeed: 0.5
   autoProgress: 0101010101
   autoProgressDelay: 2

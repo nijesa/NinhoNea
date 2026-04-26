@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
-  m_Name: DNPC_Incomodo
+  m_Name: PalomaP2
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
-  npcName: Madre
-  npcSprite: {fileID: 712535272477043524, guid: dfacb967cbc8a33478987d7d5651e541, type: 3}
+  npcName: Paloma
+  npcSprite: {fileID: 0}
   dialogueLines:
-  - Incomodo
+  - "Un compa\xF1ero en tu colegio golpe\xF3 a uno de tus amigos en el sal\xF3n de
+    clase y te dice que si le cuentas alguien tambien te va golpear "
   typingSpeed: 0.05
   autoProgress: 01
   autoProgressDelay: 2

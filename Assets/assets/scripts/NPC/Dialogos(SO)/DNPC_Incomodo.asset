@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
-  m_Name: DNPC_Feliz
+  m_Name: DNPC_Incomodo
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
-  npcName: Feliz
-  npcSprite: {fileID: 712535272477043524, guid: dfacb967cbc8a33478987d7d5651e541, type: 3}
+  npcName: Incomodo
+  npcSprite: {fileID: 0}
   dialogueLines:
-  - Feliz
+  - '*  Cuando algo es bueno, normalmente te hace sentir tranquilo. '
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 2
