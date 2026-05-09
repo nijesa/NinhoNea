@@ -195,7 +195,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1880209015}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1079958902}
   OtherOptions:
   - {fileID: 1491273555}
@@ -568,7 +572,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 252977721}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1032288847}
   OtherOptions:
   - {fileID: 1700831684}
@@ -834,7 +842,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 945498914}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 756992130}
   OtherOptions:
   - {fileID: 571607935}
@@ -997,7 +1009,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1577951944}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1379323818}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -1123,7 +1139,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 2129323990}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 130305244}
   OtherOptions:
   - {fileID: 1946763098}
@@ -1451,7 +1471,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1527599186}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1281786783}
   OtherOptions:
   - {fileID: 1946763098}
@@ -1712,7 +1736,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 585238652}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 424765364}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -2001,7 +2029,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 314974619}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 811805402}
   OtherOptions:
   - {fileID: 1263224702}
@@ -2512,7 +2544,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1273591992}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1012602624}
   OtherOptions:
   - {fileID: 633122717}
@@ -2927,7 +2963,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1736113963}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1330853813}
   OtherOptions:
   - {fileID: 1433620153}
@@ -3394,7 +3434,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1261547110}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 463268575}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -4237,7 +4281,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 442987327}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1893637924}
   OtherOptions:
   - {fileID: 1132921559}
@@ -4633,7 +4681,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1333132560}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 158410758}
   OtherOptions:
   - {fileID: 1424232781}
@@ -5616,7 +5668,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 593134582}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1666842695}
   OtherOptions:
   - {fileID: 1491273555}
@@ -5941,7 +5997,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 991243861}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 166630331}
   OtherOptions:
   - {fileID: 1509853862}
@@ -7536,7 +7596,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 251498642}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 801817524}
   OtherOptions:
   - {fileID: 1946763098}
@@ -7724,7 +7788,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1257804788}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 336203067}
   OtherOptions:
   - {fileID: 2145049917}
@@ -7966,7 +8034,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &881417220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8375,7 +8443,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1767984842}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 380675216}
   OtherOptions:
   - {fileID: 1029050817}
@@ -8487,6 +8559,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &937628056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 937628057}
+  m_Layer: 0
+  m_Name: Nome pegues robert
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &937628057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937628056}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.16382, y: -0.59167, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &945498914
 GameObject:
   m_ObjectHideFlags: 0
@@ -9125,7 +9228,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 2123016007}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 834873513}
   OtherOptions:
   - {fileID: 1029050817}
@@ -9525,7 +9632,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1689688352}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1159085877}
   OtherOptions:
   - {fileID: 1132921559}
@@ -9688,7 +9799,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1785418393}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 763079123}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -11485,7 +11600,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1974825787}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1546615685}
   OtherOptions:
   - {fileID: 1128951005}
@@ -11673,7 +11792,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1509634516}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1506271456}
   OtherOptions:
   - {fileID: 1414869721}
@@ -12747,7 +12870,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1489706749}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 2111636951}
   OtherOptions:
   - {fileID: 1424232781}
@@ -12935,7 +13062,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1554981776}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 563151142}
   OtherOptions:
   - {fileID: 1424232781}
@@ -13321,7 +13452,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 926178447}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 633453498}
   OtherOptions:
   - {fileID: 1509853862}
@@ -13887,7 +14022,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1585207817}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1842657516}
   OtherOptions:
   - {fileID: 1128951005}
@@ -15243,7 +15382,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1073600058}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 444260277}
   OtherOptions:
   - {fileID: 377505643}
@@ -15645,7 +15788,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1836119163}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 722668474}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -16442,7 +16589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1770984819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16747,7 +16894,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1873339700}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1144248089}
   OtherOptions:
   - {fileID: 1029050817}
@@ -17050,7 +17201,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 152320776}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 834374223}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -17290,7 +17445,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 532133399}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 248934952}
   OtherOptions:
   - {fileID: 1700831684}
@@ -17556,7 +17715,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 433328202}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1170725385}
   OtherOptions:
   - {fileID: 1509853862}
@@ -18422,7 +18585,11 @@ MonoBehaviour:
   onExit:
     m_PersistentCalls:
       m_Calls: []
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 456716015}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 1443331030}
   OtherOptions: []
   InvisiWall: {fileID: 0}
@@ -18763,7 +18930,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
   cosaPaVer: {fileID: 1563090027}
+  cosaPaVer2: {fileID: 937628056}
   Dialogue: {fileID: 218444151}
   OtherOptions:
   - {fileID: 1658354488}
@@ -19600,3 +19771,4 @@ SceneRoots:
   - {fileID: 907998711}
   - {fileID: 881417221}
   - {fileID: 422044053}
+  - {fileID: 937628057}
