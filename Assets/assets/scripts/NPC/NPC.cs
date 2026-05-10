@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using UnityEngine.Events;
 
 
 public class NPC : MonoBehaviour
@@ -9,6 +10,7 @@ public class NPC : MonoBehaviour
     public GameObject dialogueUI;
     public TMP_Text dialogueText, nameText;
     public PauseScript pauseScript;
+    public UnityEvent onDialogueFinished;
 
     private int dialogueIndex = 0;
     private bool isTyping, isDialogueActive;
@@ -31,7 +33,7 @@ public class NPC : MonoBehaviour
     
     void NextLine()
     {
-        Debug.Log("Next Line");
+        
         if (isTyping)
         {
             StopAllCoroutines();
@@ -40,7 +42,7 @@ public class NPC : MonoBehaviour
         }
         else if (dialogueIndex+1<dialogueData.dialogueLines.Length)
         {
-            Debug.Log("Next Line Else If");
+           
            
             StartCoroutine(TypeLine());
         }
@@ -74,6 +76,10 @@ public class NPC : MonoBehaviour
         StopAllCoroutines();
         dialogueText.text = "";
         isDialogueActive = false;
+        if (onDialogueFinished != null)
+        {
+            onDialogueFinished.Invoke();
+        }
         dialogueUI.SetActive(false);
         gameObject.SetActive(false);
         pauseScript.ResumeGame();

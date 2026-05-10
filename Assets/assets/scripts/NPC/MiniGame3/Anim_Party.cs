@@ -12,7 +12,7 @@ public class Anim_Party : MonoBehaviour
 
     public void Idle_Trigger()
     {
-        anim.SetTrigger("Idle");
+        anim.SetTrigger("Idle");    
     }
 
     public void Expand_Trigger()

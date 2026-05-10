@@ -11,7 +11,12 @@ public class TP_Scene : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneIndex);
+            GoNextScene();
         }
+    }
+
+    public void GoNextScene()
+    {
+        SceneManager.LoadScene(sceneIndex);
     }
 }

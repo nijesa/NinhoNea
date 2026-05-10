@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,6 +15,9 @@ public class NPCSystem : MonoBehaviour
     [SerializeField] GameObject Dialogue;
     [SerializeField] GameObject[] OtherOptions;
     [SerializeField] GameObject InvisiWall;
+
+    bool PlayerChose = false;
+    Coroutine waitCoroutine;
 
 
     void Start()
@@ -30,7 +35,7 @@ public class NPCSystem : MonoBehaviour
             cosaPaVer.SetActive(true);
             cosaPaVer2.SetActive(true);
            // Debug.Log("Interacting with NPC");
-            if (Input.GetKeyDown(KeyCode.E))
+            if (PlayerChose == true)
             {
                 Dialogue.SetActive(true);
                 if (OtherOptions != null)
@@ -74,11 +79,44 @@ public class NPCSystem : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             playerInRange = false;
+            PlayerChose = false;
+
+            if (waitCoroutine != null)
+            {
+                StopCoroutine(waitCoroutine);
+                waitCoroutine = null;
+            }
+
             Debug.Log("Player left range");
             if (onExit != null)
             {
                 onExit.Invoke();
             }
         }
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Player") || PlayerChose)
+        {
+            return;
+        }
+
+        if (waitCoroutine == null)
+        {
+            waitCoroutine = StartCoroutine(esperarUnRatico());
+        }
+    }
+
+    IEnumerator esperarUnRatico()
+    {
+        yield return new WaitForSeconds(5f);
+
+        if (playerInRange)
+        {
+            PlayerChose = true;
+        }
+
+        waitCoroutine = null;
     }
 }

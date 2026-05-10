@@ -56,5 +56,8 @@ TagManager:
   - name: BarraMove
     uniqueID: 1060795507
     locked: 0
+  - name: Fondont
+    uniqueID: 3921752187
+    locked: 0
   m_RenderingLayers:
   - Default
