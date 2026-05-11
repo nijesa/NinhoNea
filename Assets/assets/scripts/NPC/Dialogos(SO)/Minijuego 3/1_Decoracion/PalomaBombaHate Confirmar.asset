@@ -16,6 +16,8 @@ MonoBehaviour:
   npcSprite: {fileID: 0}
   dialogueLines:
   - "Valido, se ve bien as\xED"
+  - Ahora toca escoger el pastel para la fiesta.
+  - 
   typingSpeed: 0.5
-  autoProgress: 01
+  autoProgress: 010101
   autoProgressDelay: 2

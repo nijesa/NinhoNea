@@ -10,21 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
-  m_Name: Fin_Mini3
+  m_Name: Confirmar_Juego
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
   npcName: Ardilla
   npcSprite: {fileID: 0}
   dialogueLines:
+  - "Tu ver\xE1s"
   - "Oye\u2026 mientras organiz\xE1bamos la fiesta aprendimos algo importante: a
     veces otras personas pueden querer que cambies de opini\xF3n o escoger algo diferente
-    a ti, pero eso no significa que tengas que hacerlo."
-  - "Tus decisiones, tus gustos y lo que sientes tambi\xE9n importan. Est\xE1 bien
-    escuchar a los dem\xE1s, pero tambi\xE9n est\xE1 bien mantener una decisi\xF3n
-    cuando algo te gusta o te hace sentir c\xF3modo."
-  - "Y si alguna vez alguien intenta hacerte sentir mal, inc\xF3modo o presionado
-    para hacer algo que no quieres, recuerda que puedes decir \u201Cno\u201D, alejarte
-    y buscar ayuda de un adulto de confianza. "
+    a ti, "
+  - "pero eso no significa que tengas que hacerlo. Tus decisiones, tus gustos y lo
+    que sientes tambi\xE9n importan. Est\xE1 bien escuchar a los dem\xE1s, "
+  - " pero tambi\xE9n est\xE1 bien mantener una decisi\xF3n cuando algo te gusta
+    o te hace sentir c\xF3modo. Y si alguna vez alguien intenta hacerte sentir mal,
+    inc\xF3modo o presionado para hacer algo que no quieres,"
+  - " recuerda que puedes decir \u201Cno\u201D, alejarte y buscar ayuda de un adulto
+    de confianza. "
   - 
-  typingSpeed: 0.05
-  autoProgress: 01010101
+  typingSpeed: 0.035
+  autoProgress: 010101010101
   autoProgressDelay: 2

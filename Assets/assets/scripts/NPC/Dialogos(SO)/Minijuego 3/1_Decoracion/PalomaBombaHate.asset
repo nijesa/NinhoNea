@@ -15,8 +15,9 @@ MonoBehaviour:
   npcName: Paloma
   npcSprite: {fileID: 0}
   dialogueLines:
-  - "\xBFGlobos?  Mmm\u2026 yo habr\xEDa escogido las luces. "
+  - "Mmm\u2026 me parecen que los otros estan mas a la moda... "
   - "\xBFQuieres mantener tu elecci\xF3n o cambiarla?"
+  - 
   typingSpeed: 0.5
-  autoProgress: 0101
+  autoProgress: 010101
   autoProgressDelay: 2
