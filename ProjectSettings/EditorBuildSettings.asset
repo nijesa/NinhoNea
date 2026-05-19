@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/assets/Scenes/MiniGame_3.unity
     guid: fe47ab717e7c0954cbfaa3180f0ad6a3
+  - enabled: 1
+    path: Assets/assets/Scenes/MinGame_4_Abuso.unity
+    guid: 280e3301093e1a945af77521ec4fb9cf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

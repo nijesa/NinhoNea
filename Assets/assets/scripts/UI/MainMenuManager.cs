@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
+    [SerializeField] private int inex;
     void Update()
     {
         if (Input.anyKeyDown)
@@ -15,7 +16,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(inex);
     }
 
     void OnAnyKeyPressed()

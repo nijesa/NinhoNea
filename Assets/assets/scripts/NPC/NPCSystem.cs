@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 
 public class NPCSystem : MonoBehaviour
@@ -18,6 +19,7 @@ public class NPCSystem : MonoBehaviour
 
     bool PlayerChose = false;
     Coroutine waitCoroutine;
+    [SerializeField] Image progressBar;
 
 
     void Start()
@@ -25,6 +27,11 @@ public class NPCSystem : MonoBehaviour
         if (cosaPaVer2 != null)
         {
             cosaPaVer2.SetActive(false);
+        }
+        if (progressBar != null)
+        {
+            progressBar.fillAmount = 0f;
+            progressBar.gameObject.SetActive(false);
         }
     }
     // Update is called once per frame
@@ -67,6 +74,11 @@ public class NPCSystem : MonoBehaviour
         {
             playerInRange = true;
             Debug.Log("Player in range");
+            if (progressBar != null)
+            {
+                progressBar.gameObject.SetActive(true);
+                progressBar.fillAmount = 0f;
+            }
             if (onEnter != null)
             {
                 onEnter.Invoke();
@@ -85,6 +97,11 @@ public class NPCSystem : MonoBehaviour
             {
                 StopCoroutine(waitCoroutine);
                 waitCoroutine = null;
+            }
+            if (progressBar != null)
+            {
+                progressBar.fillAmount = 0f;
+                progressBar.gameObject.SetActive(false);
             }
 
             Debug.Log("Player left range");
@@ -110,12 +127,33 @@ public class NPCSystem : MonoBehaviour
 
     IEnumerator esperarUnRatico()
     {
-        yield return new WaitForSeconds(5f);
+        float duration = 5f;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            if (!playerInRange)
+            {
+                if (progressBar != null)
+                    progressBar.fillAmount = 0f;
+                waitCoroutine = null;
+                yield break;
+            }
+
+            elapsed += Time.deltaTime;
+            if (progressBar != null)
+                progressBar.fillAmount = Mathf.Clamp01(elapsed / duration);
+
+            yield return null;
+        }
 
         if (playerInRange)
         {
             PlayerChose = true;
         }
+
+        if (progressBar != null)
+            progressBar.fillAmount = 1f;
 
         waitCoroutine = null;
     }

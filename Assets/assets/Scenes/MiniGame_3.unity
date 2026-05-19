@@ -613,7 +613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3333476011180213421, guid: 3fe7275a5719cf342b92667956a08e91, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3598096768491235192, guid: 3fe7275a5719cf342b92667956a08e91, type: 3}
       propertyPath: m_Pivot.x
@@ -1512,7 +1512,8 @@ MonoBehaviour:
   cosaPaVer2: {fileID: 701869097}
   Dialogue: {fileID: 175858202}
   OtherOptions: []
-  InvisiWall: {fileID: 0}
+  InvisiWall: {fileID: 508617010}
+  progressBar: {fileID: 0}
 --- !u!61 &176122422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1750,7 +1751,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 400216489}
+      - m_Target: {fileID: 816565924}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2303,10 +2304,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallonsAlphaActive
   Ballons:
   - {fileID: 1800141963}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &414293155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2417,6 +2414,7 @@ MonoBehaviour:
   Dialogue: {fileID: 507164031}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 492778300}
 --- !u!61 &414293156
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3627,6 +3625,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 816565924}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -4186,6 +4196,7 @@ MonoBehaviour:
   Dialogue: {fileID: 1030721998}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 1757598283}
 --- !u!61 &694345588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4456,7 +4467,8 @@ MonoBehaviour:
   cosaPaVer2: {fileID: 701869097}
   Dialogue: {fileID: 2078150174}
   OtherOptions: []
-  InvisiWall: {fileID: 0}
+  InvisiWall: {fileID: 4904320}
+  progressBar: {fileID: 0}
 --- !u!114 &720125695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4593,6 +4605,7 @@ MonoBehaviour:
   Dialogue: {fileID: 1843122883}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 47552100}
 --- !u!61 &745289156
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4769,7 +4782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &816565925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5084,7 +5097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &881417220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5104,7 +5117,19 @@ MonoBehaviour:
   pauseScript: {fileID: 907998710}
   onDialogueFinished:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1648758552}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!4 &881417221
 Transform:
   m_ObjectHideFlags: 0
@@ -5234,6 +5259,7 @@ MonoBehaviour:
   Dialogue: {fileID: 198339951}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 1447878985}
 --- !u!61 &894879770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5621,6 +5647,7 @@ MonoBehaviour:
   Dialogue: {fileID: 1249960243}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 644424111}
 --- !u!61 &940892228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6004,6 +6031,7 @@ MonoBehaviour:
   Dialogue: {fileID: 285839218}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 1188264352}
 --- !u!61 &958529874
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7578,6 +7606,7 @@ MonoBehaviour:
   Dialogue: {fileID: 2133544925}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 1893101342}
 --- !u!61 &1282089186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8762,7 +8791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1648758553
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9944,6 +9973,63 @@ RectTransform:
   m_AnchoredPosition: {x: 6.16, y: -5.06}
   m_SizeDelta: {x: 7.0799, y: 7.0799}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1887738322
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.2375298
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.6671124
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 726256701589231926, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6364066600240021595, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
+      propertyPath: m_Name
+      value: Audio
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fcf214bc4c06d4c4e99580f64b6205c7, type: 3}
 --- !u!1 &1893101338
 GameObject:
   m_ObjectHideFlags: 0
@@ -10214,6 +10300,7 @@ MonoBehaviour:
   Dialogue: {fileID: 539030987}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 1001697465}
 --- !u!61 &1904589035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10570,6 +10657,7 @@ MonoBehaviour:
   Dialogue: {fileID: 1103850792}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 112350422}
 --- !u!61 &2018747552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11017,6 +11105,7 @@ MonoBehaviour:
   Dialogue: {fileID: 616217526}
   OtherOptions: []
   InvisiWall: {fileID: 0}
+  progressBar: {fileID: 251219821}
 --- !u!61 &2146382351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11081,3 +11170,4 @@ SceneRoots:
   - {fileID: 1068736319}
   - {fileID: 25220490}
   - {fileID: 816565927}
+  - {fileID: 1887738322}
