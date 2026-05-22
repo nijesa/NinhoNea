@@ -24,14 +24,10 @@ public class NPCSystem : MonoBehaviour
 
     void Start()
     {
-        if (cosaPaVer2 != null)
-        {
-            cosaPaVer2.SetActive(false);
-        }
         if (progressBar != null)
         {
-            progressBar.fillAmount = 0f;
-            progressBar.gameObject.SetActive(false);
+            progressBar.fillAmount = 1f;
+            
         }
     }
     // Update is called once per frame
@@ -77,7 +73,7 @@ public class NPCSystem : MonoBehaviour
             if (progressBar != null)
             {
                 progressBar.gameObject.SetActive(true);
-                progressBar.fillAmount = 0f;
+                progressBar.fillAmount = 1f;
             }
             if (onEnter != null)
             {
@@ -100,8 +96,8 @@ public class NPCSystem : MonoBehaviour
             }
             if (progressBar != null)
             {
-                progressBar.fillAmount = 0f;
-                progressBar.gameObject.SetActive(false);
+                progressBar.fillAmount = 1f;
+                
             }
 
             Debug.Log("Player left range");
@@ -142,7 +138,7 @@ public class NPCSystem : MonoBehaviour
 
             elapsed += Time.deltaTime;
             if (progressBar != null)
-                progressBar.fillAmount = Mathf.Clamp01(elapsed / duration);
+                progressBar.fillAmount = Mathf.Clamp01(1f - (elapsed / duration));
 
             yield return null;
         }
@@ -153,7 +149,7 @@ public class NPCSystem : MonoBehaviour
         }
 
         if (progressBar != null)
-            progressBar.fillAmount = 1f;
+            progressBar.fillAmount = 0f;
 
         waitCoroutine = null;
     }
