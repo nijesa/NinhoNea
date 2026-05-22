@@ -18,4 +18,4 @@ MonoBehaviour:
   - "Adem\xE1s de alejarte, contar ayuda a cuidarte m\xE1s."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

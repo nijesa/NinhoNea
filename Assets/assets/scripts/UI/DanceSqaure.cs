@@ -7,14 +7,14 @@ public class DanceSqaure : MonoBehaviour
     [SerializeField] private string playerTag = "Player";
     [SerializeField] public GameObject BarraBaileObject;
     public UnityEvent onDanceComplete;
-    [SerializeField] private float movementThreshold = 0.001f;
 
     Transform playerTransform;
     Vector3 lastPlayerPosition;
     
-    private float countdownTimer = 15f;
+    private float countdownTimer = 1f;
     private bool isCountingDown = false;
-    private const float COUNTDOWN_DURATION = 15f;
+    private const float COUNTDOWN_DURATION = 1f;
+    [SerializeField] private float xMovementMargin = 1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -76,8 +76,19 @@ public class DanceSqaure : MonoBehaviour
             bool isMoving = false;
             if (playerTransform != null)
             {
-                float dx = Mathf.Abs(playerTransform.position.x - lastPlayerPosition.x);
-                isMoving = dx > movementThreshold;
+
+                float currentX = playerTransform.position.x;
+                float previousX = lastPlayerPosition.x;
+
+                if(currentX==previousX)
+                {
+                    isMoving = false;
+                }
+                else
+                {
+                    isMoving = true;
+                }
+                
             }
 
             if (isMoving)

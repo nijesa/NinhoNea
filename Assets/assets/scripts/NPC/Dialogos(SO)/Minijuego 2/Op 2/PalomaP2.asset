@@ -17,6 +17,7 @@ MonoBehaviour:
   dialogueLines:
   - "Un compa\xF1ero en tu colegio golpe\xF3 a uno de tus amigos en el sal\xF3n de
     clase y te dice que si le cuentas alguien tambien te va golpear "
+  - .
   typingSpeed: 0.05
-  autoProgress: 01
-  autoProgressDelay: 2
+  autoProgress: 0101
+  autoProgressDelay: 1

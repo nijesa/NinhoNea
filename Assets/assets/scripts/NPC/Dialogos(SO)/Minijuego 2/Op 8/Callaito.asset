@@ -18,4 +18,4 @@ MonoBehaviour:
   - Hablar con otro adulto puede ayudarte a sentirte mejor.
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

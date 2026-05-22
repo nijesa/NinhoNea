@@ -18,4 +18,4 @@ MonoBehaviour:
   - "Eso que sientes es importante, te est\xE1 avisando algo."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

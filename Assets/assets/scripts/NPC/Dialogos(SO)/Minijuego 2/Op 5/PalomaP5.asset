@@ -28,4 +28,4 @@ MonoBehaviour:
   - "\xBFQue harias?"
   typingSpeed: 0.54
   autoProgress: 0101010101
-  autoProgressDelay: 1
+  autoProgressDelay: 3

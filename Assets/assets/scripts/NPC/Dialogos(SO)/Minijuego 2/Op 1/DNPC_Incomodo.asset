@@ -18,4 +18,4 @@ MonoBehaviour:
   - '*  Cuando algo es bueno, normalmente te hace sentir tranquilo. '
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 2
+  autoProgressDelay: 3

@@ -18,4 +18,4 @@ MonoBehaviour:
   - " \xA1Exacto! Es una sorpresa y eso emociona."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 2
+  autoProgressDelay: 3

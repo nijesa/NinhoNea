@@ -18,4 +18,4 @@ MonoBehaviour:
   - "Si algo es confuso o raro, es mejor prestarle atenci\xF3n."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

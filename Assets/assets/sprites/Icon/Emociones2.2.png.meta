@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: d18b57ccfa091874b942b3190d0af410
+guid: c7ae81d0ec61276419c12e17c0427978
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -42651480624456994
-    second: Asustado_0
+      213: 966454746782216491
+    second: Emociones2.2_0
+  - first:
+      213: -6495347956904839960
+    second: Emociones2.2_1
+  - first:
+      213: -286582885504266138
+    second: Emociones2.2_2
+  - first:
+      213: 5837750635981475108
+    second: Emociones2.2_3
+  - first:
+      213: 5053133202109189458
+    second: Emociones2.2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +109,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +122,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,23 +138,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asustado_0
+      name: Emociones2.2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
+        x: 1509
+        y: 572
+        width: 1276
+        height: 1341
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eda1c3054b8786ff0800000000000000
-      internalID: -42651480624456994
+      spriteID: b21b171c879896d00800000000000000
+      internalID: 966454746782216491
       vertices: []
       indices: 
       edges: []
@@ -151,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +171,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Asustado_0: -42651480624456994
+      Emociones2.2_0: 966454746782216491
+      Emociones2.2_1: -6495347956904839960
+      Emociones2.2_2: -286582885504266138
+      Emociones2.2_3: 5837750635981475108
+      Emociones2.2_4: 5053133202109189458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

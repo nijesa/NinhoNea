@@ -18,4 +18,4 @@ MonoBehaviour:
   - "Tu cuerpo te ayuda a notar cuando algo no est\xE1 bien."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

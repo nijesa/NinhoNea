@@ -18,4 +18,4 @@ MonoBehaviour:
   - "Esa sensaci\xF3n te est\xE1 cuidando, esc\xFAchala."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

@@ -18,4 +18,4 @@ MonoBehaviour:
   - " \xA1Bien hecho! Los adultos pueden ayudar."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

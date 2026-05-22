@@ -123,7 +123,7 @@ public class NPCSystem : MonoBehaviour
 
     IEnumerator esperarUnRatico()
     {
-        float duration = 5f;
+        float duration = 3f;
         float elapsed = 0f;
 
         while (elapsed < duration)

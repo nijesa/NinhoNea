@@ -18,4 +18,4 @@ MonoBehaviour:
   - "\xA1Exacto! Mereces que te escuchen."
   typingSpeed: 0.5
   autoProgress: 01
-  autoProgressDelay: 1
+  autoProgressDelay: 3

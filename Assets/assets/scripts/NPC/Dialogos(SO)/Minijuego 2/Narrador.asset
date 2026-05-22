@@ -25,4 +25,4 @@ MonoBehaviour:
   - "\xBFComo te hace sentir este secreto?"
   typingSpeed: 0.5
   autoProgress: 0101010101
-  autoProgressDelay: 2
+  autoProgressDelay: 3
