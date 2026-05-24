@@ -1,11 +1,14 @@
 using UnityEngine;
+using System.Collections.Generic;
+using System.Collections;
 
 
-[System.Serializable]
+[CreateAssetMenu(fileName = "Character", menuName = "Characters/Character")]
 public class CharacterSO : ScriptableObject
 {
     public string characterName;
     public Sprite characterSprite;
     
+    public GameObject characterRigged;
     
 }
