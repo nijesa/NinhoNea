@@ -11,13 +11,19 @@ public class NPC : MonoBehaviour
     public TMP_Text dialogueText, nameText;
     public PauseScript pauseScript;
     public UnityEvent onDialogueFinished;
+    private bool firstTime = true;
 
     private int dialogueIndex = 0;
     private bool isTyping, isDialogueActive;
 
     void OnEnable()
     {
-        StartDialogue();
+        if (firstTime)
+        {
+            firstTime = false;
+            StartDialogue();
+        }
+        
     }
     void StartDialogue()
     {

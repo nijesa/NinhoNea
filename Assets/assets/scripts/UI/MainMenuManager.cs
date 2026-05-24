@@ -23,6 +23,6 @@ public class MainMenuManager : MonoBehaviour
     {
         Debug.Log("Key pressed!");
         
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(inex);
     }
 }

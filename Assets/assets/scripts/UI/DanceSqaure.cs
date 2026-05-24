@@ -16,6 +16,12 @@ public class DanceSqaure : MonoBehaviour
     private const float COUNTDOWN_DURATION = 1f;
     [SerializeField] private float xMovementMargin = 1f;
 
+    
+    public UnityEvent onEnterDanceZone;
+    public UnityEvent onExitDanceZone;
+    
+    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag(playerTag))
@@ -25,6 +31,7 @@ public class DanceSqaure : MonoBehaviour
 
             StartCountdown();
             BarraBaileObject.SetActive(true);
+            onEnterDanceZone?.Invoke();
         }
     }
 
@@ -36,6 +43,7 @@ public class DanceSqaure : MonoBehaviour
             BarraBaileObject.SetActive(false);
             playerTransform = null;
             lastPlayerPosition = Vector3.zero;
+            onExitDanceZone?.Invoke();
         }
     }
 

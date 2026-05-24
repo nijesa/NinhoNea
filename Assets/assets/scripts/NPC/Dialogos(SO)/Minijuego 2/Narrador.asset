@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Narrador
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
   npcName: Ardilla
-  npcSprite: {fileID: 0}
+  npcSprite: {fileID: 5733535729988293734, guid: b8f2c0ca16bbc0249a46ee48bd7ffe77, type: 3}
   dialogueLines:
   - Los secretos buenos, como una sorpresa, te hace sentir feliz y emocionado
   - "y puedes contarselos a tus pap\xE1s o a un adulto que te cuida, porque ellos

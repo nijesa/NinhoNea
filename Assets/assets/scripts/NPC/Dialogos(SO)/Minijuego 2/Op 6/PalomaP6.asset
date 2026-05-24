@@ -18,6 +18,7 @@ MonoBehaviour:
   - "Un compa\xF1ero en tu colegio golpe\xF3 a uno de tus amigos en el sal\xF3n de
     clase y te dice que si le cuentas alguien tambien te va golpear "
   - "\xBFQue harias?"
-  typingSpeed: 0.54
-  autoProgress: 0101
-  autoProgressDelay: 3
+  - 0
+  typingSpeed: 0.6
+  autoProgress: 010101
+  autoProgressDelay: 4
