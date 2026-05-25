@@ -15,14 +15,25 @@ MonoBehaviour:
   npcName: Ardilla
   npcSprite: {fileID: 5733535729988293734, guid: b8f2c0ca16bbc0249a46ee48bd7ffe77, type: 3}
   dialogueLines:
-  - Los secretos buenos, como una sorpresa, te hace sentir feliz y emocionado
-  - "y puedes contarselos a tus pap\xE1s o a un adulto que te cuida, porque ellos
-    te ayudan a hacer las cosas bien"
-  - "En cambio los secretos malos te hacen sentir inc\xF3modo, triste o con miedo,
-    y esos no se guardan: siempre debes contarlos para que puedan ayudarte y protegerte."
+  - "\xA1Ey! \xA1Justo a tiempo!  Necesito tu ayuda urgente\u2026 estoy organizando
+    una fiesta sorpresa para esta tarde y todav\xEDa me faltan muchas cosas.  "
+  - "Pero shhh\u2026 es un secreto de cumplea\xF1os. No podemos cont\xE1rselo al
+    cumplea\xF1ero todav\xEDa porque queremos verlo feliz y sorprendido.  \xBFSab\xEDas
+    que existen secretos buenos y secretos malos?"
+  - Los secretos buenos son los que te hacen sentir feliz, emocionado o divertido,
+    como preparar una sorpresa para alguien
+  - "Adem\xE1s, no duran mucho tiempo y no hacen sentir mal a nadie.  "
+  - "Pero tambi\xE9n existen secretos malos. Son esos que te hacen sentir inc\xF3modo,
+    triste o con miedo, y normalmente alguien te pide que nunca se los cuentes a
+    nadie.  "
+  - "Y escucha esto con atenci\xF3n: los secretos malos nunca deben guardarse. Siempre
+    debes cont\xE1rselos a un adulto de confianza para que pueda ayudarte y protegerte"
+  - "Tus emociones son muy importantes, porque te ayudan a darte cuenta de cu\xE1ndo
+    algo est\xE1 bien\u2026 y cu\xE1ndo necesitas pedir ayuda. "
   - "Supongamos que tu madre te dice \"No le digas a tu hermano, es una fiesta sorpresa
     de cumplea\xF1os\""
   - "\xBFComo te hace sentir este secreto?"
+  - "\xBFComo te hace sentir este secreto?"
   typingSpeed: 0.5
-  autoProgress: 0101010101
-  autoProgressDelay: 3
+  autoProgress: 01010101010101010101
+  autoProgressDelay: 2

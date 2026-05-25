@@ -27,4 +27,4 @@ MonoBehaviour:
   - 
   typingSpeed: 0.05
   autoProgress: 01010101
-  autoProgressDelay: 3
+  autoProgressDelay: 1

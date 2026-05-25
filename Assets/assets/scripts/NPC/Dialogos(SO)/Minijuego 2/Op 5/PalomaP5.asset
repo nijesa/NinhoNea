@@ -26,6 +26,6 @@ MonoBehaviour:
   - "Tu mam\xE1 te dice: \u201Cayudame a esconder este regalo para tu hermano, pero
     no le digas, es una sorpresa de cumplea\xF1os\u201D"
   - "\xBFQue harias?"
-  typingSpeed: 0.54
+  typingSpeed: 0.04
   autoProgress: 0101010101
-  autoProgressDelay: 3
+  autoProgressDelay: 1.7

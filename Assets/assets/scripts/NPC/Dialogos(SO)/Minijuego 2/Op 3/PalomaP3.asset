@@ -15,8 +15,8 @@ MonoBehaviour:
   npcName: Ardilla
   npcSprite: {fileID: 0}
   dialogueLines:
-  - "3Un compa\xF1ero en tu colegio golpe\xF3 a uno de tus amigos en el sal\xF3n
-    de clase y te dice que si le cuentas alguien tambien te va golpear "
+  - "Tu primo pide hacerte \u201Ccosquillas\u201D en tus partes privadas, pero dice
+    que es un juego secreto y no lo debes comentar con tus padres. "
   - "\xBFComo te hace sentir este secreto?"
   - "\xBFComo te hace sentir este secreto?"
   typingSpeed: 0.54
