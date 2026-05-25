@@ -397,16 +397,76 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8395640038841000045, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6346749494408732798}
+    - targetCorrespondingSourceObject: {fileID: -7299273470416877400, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3129235720615602128}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
 --- !u!4 &257684880465729525 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
   m_PrefabInstance: {fileID: 1494259407095328299}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1013143272088757891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7299273470416877400, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
+  m_PrefabInstance: {fileID: 1494259407095328299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3129235720615602128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013143272088757891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626c02c5549b2940b848a425729a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmsMovement
+  bone: {fileID: 4021957337536355246}
+  useLeftArm: 0
+  receivedAngle: 0
+  debugLogs: 0
+  angleOffset: 150
 --- !u!1 &1394817207718727574 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
+  m_PrefabInstance: {fileID: 1494259407095328299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4021957337536355246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -6670831740357790331, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
+  m_PrefabInstance: {fileID: 1494259407095328299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6935511684917874246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8395640038841000045, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
+  m_PrefabInstance: {fileID: 1494259407095328299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6346749494408732798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6935511684917874246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626c02c5549b2940b848a425729a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmsMovement
+  bone: {fileID: 8722932049753849215}
+  useLeftArm: 1
+  receivedAngle: 0
+  debugLogs: 0
+  angleOffset: 200
+--- !u!4 &8722932049753849215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1318787814824783020, guid: 6dd23b5f6e66caa438ba2de180867906, type: 3}
   m_PrefabInstance: {fileID: 1494259407095328299}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2401469081736129782
@@ -528,8 +588,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4157741701538757237, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3753497113893347933}
+    - targetCorrespondingSourceObject: {fileID: -1075098041625165290, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4233021810144472753}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+--- !u!1 &1792713458936747651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4157741701538757237, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+  m_PrefabInstance: {fileID: 2401469081736129782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3753497113893347933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792713458936747651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626c02c5549b2940b848a425729a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmsMovement
+  bone: {fileID: 2666499959264823652}
+  useLeftArm: 1
+  receivedAngle: 0
+  debugLogs: 0
+  angleOffset: 200
+--- !u!4 &2666499959264823652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 311580695235782034, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+  m_PrefabInstance: {fileID: 2401469081736129782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2788982401956154699 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
@@ -538,6 +631,33 @@ GameObject:
 --- !u!4 &3926133247630824744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+  m_PrefabInstance: {fileID: 2401469081736129782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5784811525831257824 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1075098041625165290, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
+  m_PrefabInstance: {fileID: 2401469081736129782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4233021810144472753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784811525831257824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626c02c5549b2940b848a425729a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmsMovement
+  bone: {fileID: 6346366323850952387}
+  useLeftArm: 0
+  receivedAngle: 0
+  debugLogs: 0
+  angleOffset: 150
+--- !u!4 &6346366323850952387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -485990856666115531, guid: 43d64aeeb013cd046a820883338b5ee9, type: 3}
   m_PrefabInstance: {fileID: 2401469081736129782}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3929264222666331716
@@ -659,7 +779,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6697769287265818197, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6291570080283038014}
+    - targetCorrespondingSourceObject: {fileID: -2533750780506644643, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4579017428718168329}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
 --- !u!4 &2425288407966576538 stripped
 Transform:
@@ -671,3 +797,57 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
   m_PrefabInstance: {fileID: 3929264222666331716}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &5148990504836211037 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8211029052659775257, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
+  m_PrefabInstance: {fileID: 3929264222666331716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6654317379086414556 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7700995489080730776, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
+  m_PrefabInstance: {fileID: 3929264222666331716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7661119846194989337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2533750780506644643, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
+  m_PrefabInstance: {fileID: 3929264222666331716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4579017428718168329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7661119846194989337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626c02c5549b2940b848a425729a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmsMovement
+  bone: {fileID: 5148990504836211037}
+  useLeftArm: 0
+  receivedAngle: 0
+  debugLogs: 0
+  angleOffset: 150
+--- !u!1 &7670981809868210193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6697769287265818197, guid: 3fafbb6e380c61243b2080263738b11c, type: 3}
+  m_PrefabInstance: {fileID: 3929264222666331716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6291570080283038014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670981809868210193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626c02c5549b2940b848a425729a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArmsMovement
+  bone: {fileID: 6654317379086414556}
+  useLeftArm: 1
+  receivedAngle: 0
+  debugLogs: 0
+  angleOffset: 200

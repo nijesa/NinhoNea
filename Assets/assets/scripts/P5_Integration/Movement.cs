@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour
 
 	private readonly object locker = new object();
 	private volatile bool hasNewValue;
-	private static readonly Regex NumberRegex = new Regex(@"-?\d+(?:[\.,]\d+)?", RegexOptions.Compiled);
+	private static readonly Regex XRegex = new Regex("\"x\"\\s*:\\s*(-?\\d+(?:[\\.,]\\d+)?)", RegexOptions.Compiled);
 
 	private void OnEnable()
 	{
@@ -72,13 +72,13 @@ public class Movement : MonoBehaviour
 			return;
 		}
 
-		Match match = NumberRegex.Match(message);
+		Match match = XRegex.Match(message);
 		if (!match.Success)
 		{
 			return;
 		}
 
-		string numberText = match.Value.Replace(',', '.');
+		string numberText = match.Groups[1].Value.Replace(',', '.');
 		if (!float.TryParse(numberText, NumberStyles.Float, CultureInfo.InvariantCulture, out float value))
 		{
 		return;
