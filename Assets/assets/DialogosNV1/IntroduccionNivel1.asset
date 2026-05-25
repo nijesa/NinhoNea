@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7abf1180ea299946b67d1102c6b267b, type: 3}
+  m_Name: IntroduccionNivel1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNPC
+  npcName: Narrador
+  npcSprite: {fileID: 0}
+  dialogueLines:
+  - "Oh no\u2026 creo que est\xE1s perdido. Debes reunirte con tu grupo cuanto antes. 
+    \xBFSabes qu\xE9 hacer cuando te pierdes? "
+  - "Siempre debes estar atento a tus alrededores. Si tus pap\xE1s o los adultos
+    contigo establecieron un lugar seguro, debes ir all\xED. Y si no, es importante
+    que tengas a la mano informaci\xF3n importante como tu nombre y el n\xFAmero
+    de contacto de tus acudientes para poder pedir ayuda."
+  - 
+  typingSpeed: 0.005
+  autoProgress: 010101
+  autoProgressDelay: 0.6

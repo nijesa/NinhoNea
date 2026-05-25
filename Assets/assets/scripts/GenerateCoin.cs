@@ -15,6 +15,11 @@ public class GenerateCoin : MonoBehaviour
 
     void Start()
     {
+        
+    }
+
+public void startFall()
+    {
         StartCoroutine(SpawnCoinsForDuration());
     }
 
